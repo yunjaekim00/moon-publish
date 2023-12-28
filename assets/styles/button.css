@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-text {
+    @apply inline-block text-center;
+    min-width: 0;
+    height: auto;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+}

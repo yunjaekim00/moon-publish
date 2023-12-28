@@ -1,8 +1,11 @@
+import type { ReactNode } from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { familySpoqa, familyMont } from "@/assets/styles/font";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+export interface LayoutProps {
+  children: ReactNode;
+}
 
 export const metadata: Metadata = {
   title: {
@@ -11,18 +14,21 @@ export const metadata: Metadata = {
   },
   description: "X2BEE MALL FO by Plateer",
   icons: {
-    icon: "./images/favicon.ico",
+    icon: "../assets/icons/favicon.ico",
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: LayoutProps) => {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="ko"
+      className={`${familyMont.variable} ${familySpoqa.variable}`}
+    >
+      <body>
+        <main>{children}</main>
+      </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import CSS */
+@import url("@/assets/styles/text.css");
+@import url("@/assets/styles/button.css");
+
+@layer base {
+  html[lang="ko"] {
+    @apply font-spoqa;
+  }
+  /* tailwind reset css가 완벽하지 않아서 추가해야함 */
+  input {
+    @apply appearance-none;
+  }
+}

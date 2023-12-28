@@ -1,0 +1,16 @@
+<svg id="controls_checkBox_normal_24x24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_461106" data-name="사각형 461106" width="16" height="16" fill="none" stroke="#c2c2ca" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="사각형_460247" data-name="사각형 460247" fill="#fff" stroke="#c2c2ca" stroke-width="1">
+    <rect width="24" height="24" rx="7" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" rx="6.5" fill="none"/>
+  </g>
+  <g id="icon_check" transform="translate(4 4)">
+    <g id="마스크_그룹_160" data-name="마스크 그룹 160" clip-path="url(#clip-path)">
+      <path id="패스_1471" data-name="패스 1471" d="M779.27,217.943l3.708,2.592,4.958-6.667" transform="translate(-775.604 -209.201)" fill="none" stroke="#c2c2ca" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
