@@ -1,6 +1,5 @@
 import TextGuide from "./text-guide/page";
-//import ButtonGuide from './button-guide/page';
-//import InputGuide from './input-guide/page';
+import ButtonGuide from "./button-guide/page";
 import CheckboxGuide from "./checkbox-guide/page";
 
 const UiGuide = () => {
@@ -12,8 +11,7 @@ const UiGuide = () => {
       </div>
 
       <TextGuide />
-      {/*<ButtonGuide />
-      <InputGuide />*/}
+      <ButtonGuide />
       <CheckboxGuide />
     </>
   );
